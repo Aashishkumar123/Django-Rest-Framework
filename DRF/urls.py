@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('simpleApi.urls')),
     path('',include('ModelSerializer.urls')),
+    path('',include('function_based_api_view.urls')),
 ]

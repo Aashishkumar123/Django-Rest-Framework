@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     #my apps
     'simpleApi',
     'ModelSerializer',
+    'function_based_api_view',
 ]
 
 MIDDLEWARE = [
